@@ -4,7 +4,7 @@ import time
 from datetime import datetime, timedelta
 
 # Konfigurasi API
-API_KEY = "RbWLjVBwT6-Ht-MfKt08wg"
+API_KEY = "bj-xACgkRQGLCfCpdbA3eA"
 # Coba gunakan endpoint JSON murni jika /csv error
 URL = "https://api.iprn-elite.com/v1.0/json" 
 
