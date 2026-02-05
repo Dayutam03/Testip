@@ -595,7 +595,7 @@ class Utils:
     
     @staticmethod
     def extract_numbers_from_text(text: str) -> List[str]:
-        numbers = re.findall(r'\b\d{12,15}\b', text)
+        numbers = re.findall(r'\b\d{11,15}\b', text)
         return list(set(numbers))
 
 class OTPReceiver:
